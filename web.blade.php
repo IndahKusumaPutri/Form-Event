@@ -1,3 +1,4 @@
+Route event
 Route::resource('/event','EventController');
 Route::get('/event/create', 'EventController@create');
 Route::post('/event/store', 'EventController@store');
